@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>RR Gold - India's Trusted Gold Partner</title>
+    <meta
+        content="Sell your gold for instant cash at RR Gold Finance. We offer the best market rates, release pledged gold, and ensure 100% transparency and security."
+        name="description" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;family=Noto+Sans:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "var(--color-primary)",
+                        "background-light": "var(--color-bg-light)",
+                        "background-dark": "var(--color-bg-dark)",
+                        gold: "var(--color-gold)",
+                        "gold-light": "var(--color-gold-light)",
+                        "surface-dark": "var(--color-surface-dark)",
+                        "border-dark": "var(--color-border-dark)",
+                        "text-secondary": "var(--color-text-secondary)"
+                    },
+                    fontFamily: {
+                        display: ["Spline Sans", "Noto Sans", "sans-serif"],
+                        body: ["Spline Sans", "Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { DEFAULT: "1rem", lg: "2rem", xl: "3rem", full: "9999px" },
+                    backgroundImage: {
+                        "gold-gradient": "linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 50%, var(--color-gold) 100%)"
+                    }
+                }
+            }
+        }; 
+    </script>
+    <style>
+        :root {
+            /* Premium Black & Gold Theme Variables */
+            --color-primary: #bf953f;
+            /* Antique Gold for main actions */
+            --color-bg-light: #f8f8f8;
+            /* Warm off-white */
+            --color-bg-dark: #050505;
+            /* Deepest rich black */
+            --color-surface-dark: #121212;
+            /* Slightly lighter black for cards */
+            --color-border-dark: #2a2a2a;
+            /* Subtle border */
+            --color-text-secondary: #a0a0a0;
+            /* Muted text */
+            --color-gold: #d4af37;
+            /* Classic Gold */
+            --color-gold-light: #f2d06b;
+            /* Highlight Gold */
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--color-bg-dark)
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #444;
+            border-radius: 4px
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--color-primary)
+        }
+
+        .text-gradient-gold {
+            background: linear-gradient(to right, var(--color-gold), var(--color-gold-light), var(--color-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: shine 5s linear infinite
+        }
+
+        @keyframes shine {
+            to {
+                background-position: 200% center
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GoldJewelryStore",
+  "name": "RR Gold Finance",
+  "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCnKnmK3GVSwTMryaiP3adSCnEC2OPHeltUlQ3s_zaEWjpbxRi9z10zWvEynNfRFBOSqsVdhNRXd0JbuFmpNzbbYlMaxAuLkz2lFNyDg4iMFm1O58QXfsxzPcW9IWVToxM9BjtmwYlDB563XXrtBE5s_3n-KwfWZYSqyEh8QfPwx4ZVatArk4lAUSoB4S4joi5947g8UiqWDx6g4Yod0lK52tLkCobMrEg0HLH_f-hrmk3iQiGU2SvEzBUsa1mO6fKLYS_o_4pAU10W",
+  "description": "India's Trusted Partner for Gold Buying & Gold Solutions. Instant payments and transparent valuation.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "123 Gold Street, Financial District",
+    "addressLocality": "Mumbai",
+    "addressRegion": "Maharashtra",
+    "postalCode": "400051",
+    "addressCountry": "IN"
+  },
+  "telephone": "+919876543210",
+  "priceRange": "$$$",
+  "url": "https://rrgoldfinance.in"
+}
+</script>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-[#111714] dark:text-white overflow-x-hidden transition-colors duration-300">
+    <header
+        class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-border-dark">
+        <div class="px-4 md:px-10 py-4 flex items-center justify-between max-w-7xl mx-auto w-full">
+            <div class="flex items-center gap-3">
+                <div
+                    class="size-8 rounded-full bg-gold-gradient flex items-center justify-center text-background-dark shadow-[0_0_15px_rgba(212,175,55,0.3)]">
+                    <span class="material-symbols-outlined text-xl">diamond</span>
+                </div>
+                <h2 class="text-xl font-bold tracking-tight text-gradient-gold">RR GOLD</h2>
+            </div>
+            <nav class="hidden md:flex items-center gap-8">
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#home">Home</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#about">About</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#services">Services</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#offers">Offers</a>
+                <a class="text-sm font-medium hover:text-primary transition-colors" href="#contact">Contact</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="tel:+918270057004"
+                    class="hidden sm:flex items-center justify-center rounded-full h-10 px-6 bg-primary hover:bg-primary/90 text-background-dark text-sm font-bold shadow-[0_0_20px_rgba(191,149,63,0.3)] transition-all hover:scale-105"
+                    aria-label="Call Us Now">
+                    <span class="material-symbols-outlined mr-2 text-lg">call</span>
+                    Call Us Now
+                </a>
+                <button class="md:hidden text-white" aria-label="Open Menu">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="relative min-h-screen w-full flex flex-col items-center justify-center pt-20">
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <div class="w-full h-full bg-cover bg-center bg-no-repeat transition-transform duration-[20s] hover:scale-105"
+                data-alt="Luxury gold bars stacked on black velvet background"
+                style="background-image: linear-gradient(rgba(5, 5, 5, 0.7), rgba(5, 5, 5, 0.8)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuCnKnmK3GVSwTMryaiP3adSCnEC2OPHeltUlQ3s_zaEWjpbxRi9z10zWvEynNfRFBOSqsVdhNRXd0JbuFmpNzbbYlMaxAuLkz2lFNyDg4iMFm1O58QXfsxzPcW9IWVToxM9BjtmwYlDB563XXrtBE5s_3n-KwfWZYSqyEh8QfPwx4ZVatArk4lAUSoB4S4joi5947g8UiqWDx6g4Yod0lK52tLkCobMrEg0HLH_f-hrmk3iQiGU2SvEzBUsa1mO6fKLYS_o_4pAU10W');">
+            </div>
+        </div>
+        <div
+            class="relative z-10 container mx-auto px-4 md:px-10 flex flex-col items-center text-center max-w-4xl gap-6 md:gap-8 mt-10 md:mt-0">
+            <div
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gold/30 bg-gold/10 backdrop-blur-sm animate-fade-in-up">
+                <span class="material-symbols-outlined text-gold text-sm">stars</span>
+                <span class="text-gold text-xs font-bold uppercase tracking-wider">India's #1 Gold Buyer</span>
+            </div>
+            <h1
+                class="text-4xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight text-white drop-shadow-xl">
+                Welcome to <br />
+                <span class="text-gradient-gold">RR GOLD</span>
+            </h1>
+            <h2 class="text-lg md:text-2xl font-light text-gray-200 max-w-2xl leading-relaxed">
+                India's Trusted Partner for Gold Buying &amp; Gold Solutions. <br class="hidden md:block" />
+                We offer honest evaluations and <span class="text-primary font-bold">instant payments</span> for your
+                gold.
+            </h2>
+            <div class="flex flex-col sm:flex-row gap-4 w-full justify-center mt-4">
+                <a href="#contact"
+                    class="flex items-center justify-center rounded-full h-14 px-8 bg-primary hover:bg-primary/90 text-background-dark text-base font-bold shadow-[0_0_20px_rgba(191,149,63,0.4)] transition-all hover:-translate-y-1">
+                    Get Instant Quote
+                    <span class="material-symbols-outlined ml-2">arrow_forward</span>
+                </a>
+                <button
+                    class="flex items-center justify-center rounded-full h-14 px-8 border border-white/20 bg-white/5 hover:bg-white/10 backdrop-blur-md text-white text-base font-medium transition-all hover:-translate-y-1">
+                    <span class="material-symbols-outlined mr-2">play_circle</span>
+                    How It Works
+                </button>
+            </div>
+        </div>
+        <div
+            class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60 animate-bounce">
+            <span class="text-xs uppercase tracking-widest text-white/80">Scroll Down</span>
+            <span class="material-symbols-outlined text-white">keyboard_arrow_down</span>
+        </div>
+    </section>
+    <div class="w-full bg-[#080808] border-y border-white/5 py-4 overflow-hidden relative">
+        <div
+            class="flex whitespace-nowrap gap-16 animate-marquee px-4 justify-center md:justify-start overflow-x-auto no-scrollbar">
+            <div class="flex items-center gap-2 text-white/80">
+                <span class="material-symbols-outlined text-gold text-lg">trending_up</span>
+                <span class="font-medium">Gold Rate (24k)</span>
+            </div>
+            <div class="flex items-center gap-2 text-white/80">
+                <span class="material-symbols-outlined text-gold text-lg">trending_up</span>
+                <span class="font-medium">Gold Rate (22k)</span>
+            </div>
+            <div class="flex items-center gap-2 text-white/80">
+                <span class="material-symbols-outlined text-gold text-lg">trending_up</span>
+                <span class="font-medium">Gold Rate (18k)</span>
+            </div>
+            <div class="flex items-center gap-2 text-white/80">
+                <span class="material-symbols-outlined text-primary text-lg">verified</span>
+                <span class="font-medium">Instant Cash Transfer</span>
+            </div>
+            <div class="flex items-center gap-2 text-white/80 hidden md:flex">
+                <span class="material-symbols-outlined text-primary text-lg">group</span>
+                <span class="font-medium">5000+ Happy Customers</span>
+            </div>
+        </div>
+    </div>
+    <section class="py-20 px-4 md:px-10 max-w-7xl mx-auto" id="about">
+        <div class="flex flex-col md:flex-row gap-12 items-start">
+            <div class="flex-1 flex flex-col gap-6 sticky top-24">
+                <div class="inline-flex items-center gap-2">
+                    <span class="h-px w-8 bg-primary"></span>
+                    <span class="text-primary font-bold uppercase tracking-widest text-sm">Why Choose Us</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold leading-tight text-white">
+                    Experience the most <span class="text-gradient-gold">transparent</span> and <span
+                        class="text-primary">secure</span> gold trading process.
+                </h2>
+                <p class="text-gray-400 text-lg leading-relaxed">
+                    At RR Gold Finance, we understand the emotional and financial value of your gold. That's why we've
+                    built a process that puts transparency first, ensuring you get the exact worth of your valuables
+                    instantly.
+                </p>
+                <ul class="flex flex-col gap-4 mt-2">
+                    <li class="flex items-center gap-3 text-white">
+                        <span class="flex items-center justify-center size-6 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-sm font-bold">check</span>
+                        </span>
+                        No hidden charges or melting loss
+                    </li>
+                    <li class="flex items-center gap-3 text-white">
+                        <span class="flex items-center justify-center size-6 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-sm font-bold">check</span>
+                        </span>
+                        German XRF Technology for Testing
+                    </li>
+                    <li class="flex items-center gap-3 text-white">
+                        <span class="flex items-center justify-center size-6 rounded-full bg-primary/20 text-primary">
+                            <span class="material-symbols-outlined text-sm font-bold">check</span>
+                        </span>
+                        Complete Privacy &amp; Security
+                    </li>
+                </ul>
+                <button
+                    class="mt-4 w-fit px-6 py-3 rounded-full border border-primary text-primary font-bold hover:bg-primary hover:text-background-dark transition-all">
+                    Learn More About Us
+                </button>
+            </div>
+            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+                <div
+                    class="group p-8 rounded-[2rem] bg-surface-dark border border-white/5 hover:border-gold/30 transition-all duration-300 hover:-translate-y-2">
+                    <div
+                        class="size-14 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-primary text-3xl">payments</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Instant Cash</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Get paid immediately via cash, IMPS, or bank
+                        transfer right after evaluation.</p>
+                </div>
+                <div
+                    class="group p-8 rounded-[2rem] bg-surface-dark border border-white/5 hover:border-gold/30 transition-all duration-300 hover:-translate-y-2 sm:translate-y-8">
+                    <div
+                        class="size-14 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-gold text-3xl">currency_rupee</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Best Market Rates</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">We monitor live market rates to guarantee the
+                        highest price for your gold today.</p>
+                </div>
+                <div
+                    class="group p-8 rounded-[2rem] bg-surface-dark border border-white/5 hover:border-gold/30 transition-all duration-300 hover:-translate-y-2">
+                    <div
+                        class="size-14 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-blue-400 text-3xl">shield_person</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Certified Evaluators</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">Professional and honest assessment by certified
+                        experts using advanced tech.</p>
+                </div>
+                <div
+                    class="group p-8 rounded-[2rem] bg-surface-dark border border-white/5 hover:border-gold/30 transition-all duration-300 hover:-translate-y-2 sm:translate-y-8">
+                    <div
+                        class="size-14 rounded-2xl bg-gradient-to-br from-gray-800 to-black border border-white/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <span class="material-symbols-outlined text-purple-400 text-3xl">lock_reset</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Release Pledged Gold</h3>
+                    <p class="text-gray-400 leading-relaxed text-sm">We help you release your pledged gold from banks
+                        and buy it at market rates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-10" id="services">
+        <div class="w-full bg-background-dark py-10">
+            <div class="px-4 md:px-10 max-w-7xl mx-auto flex flex-col gap-10">
+                <div class="text-center max-w-2xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Premium Services</h2>
+                    <p class="text-gray-400">Tailored financial solutions revolving around your most precious asset.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-4 h-auto md:h-[500px]">
+                    <div class="md:col-span-8 relative group rounded-2xl overflow-hidden min-h-[300px]">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                            data-alt="Close up of golden jewelry chains and rings"
+                            style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAD3_N0v43Ihkm3AbuE7pBY-SgAd4rUAPInY7fe6bS4aQWALCIk5wAw_rAhtq0FxgEGde97rAoa5wg-KcCvgLdIgkheLK60r163iQ4dGT1-bg_lgMzKK3pqG2tYqYbxRb09QqY1OeFOKLQW99BpmIb_-Qnsm8II6G9UyHkeA41OJSu5x1U6n2X6_p1wUUcZ0TS-tXXlww5Atw_98dGmCFHorY-xdQYepSTL14bvkev3a1L_gotqC2Cq5NrO0d5E1rBVRrR8c6xqTEN-');">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <h3 class="text-2xl font-bold text-white mb-2">Sell Gold Jewelry</h3>
+                            <p class="text-gray-300 max-w-md text-sm">Turn your unused or old jewelry into instant
+                                capital for your business or personal needs.</p>
+                        </div>
+                    </div>
+                    <div class="md:col-span-4 flex flex-col gap-4">
+                        <div class="flex-1 relative group rounded-2xl overflow-hidden min-h-[200px]">
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                data-alt="Financial document signing with a pen"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDL5vfIvyIlWb1EcC0X82DQX11CcuYWMgYVHxgDNZJT3OnbU-N7UkycA0f75BoFPv_G5h_BNcquPW9ch--ibaO8QxFR0zJwO1p3yxJkvZCUOwmQV_n6E0IT7RkZ0KNnOrS6NUO-Oi-6opdQHoQVXfA8z4ANwlnjXwq54-_jO3ycm3ByA1SVQPyd7Z4-FCTA-I3gCKdoK8n3QQxM3i4H3GbXbf0iyY26jfLKNLdbvXlAxNATNqfr2naoeEvzAGcCevSAkQf-k2V7dwFE');">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent">
+                            </div>
+                            <div class="absolute bottom-0 left-0 p-6">
+                                <h3 class="text-xl font-bold text-white mb-1">Release Pledged Gold</h3>
+                                <p class="text-gray-300 text-xs">Bank loan settlement assistance.</p>
+                            </div>
+                        </div>
+                        <div class="flex-1 relative group rounded-2xl overflow-hidden min-h-[200px]">
+                            <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
+                                data-alt="Gold coins stack representing investment"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDP_m49G_iMMV1EoWdPN6Ahvr14zrE3OXVBPQWI2b-j3WI7Rrjs783BBgvKdnEnUn49hYF7UyiVHqf_rIS9zE8rihGjSDN1syzAqFJtkgAihg2b2eoXvUdh1hF89pDJK8Pea2U9g6Mlylz-vt_ta5lH0krwkRb7sMgsM5K8Z8NDJl999E95tMDhVjwVADsBePyP3QV2DisthGHmcHCQxYGkoG2Gs80kIfMT8SMmmwCT7IqTzESmYjG7tZOzMJJh5t4W0oz10XHX58OK');">
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent">
+                            </div>
+                            <div class="absolute bottom-0 left-0 p-6">
+                                <h3 class="text-xl font-bold text-white mb-1">Gold Coins &amp; Bars</h3>
+                                <p class="text-gray-300 text-xs">Best rates for 24k pure gold.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="offers" class="flex flex-col items-center py-10 px-4 md:px-10 lg:px-40">
+        <div class="w-full max-w-[960px] flex flex-col gap-6 text-center z-10 mb-12">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em] text-white">
+                Our Offerings
+            </h2>
+            <p
+                class="text-slate-600 dark:text-gray-300 text-base md:text-lg font-normal leading-relaxed max-w-[720px] mx-auto">
+                Experience secure, transparent, and customer-friendly financial services. We guarantee accurate
+                valuations, fair pricing, and instant transactions designed for your peace of mind.
+            </p>
+        </div>
+        <div class="layout-content-container flex flex-col max-w-[1200px] flex-1 w-full">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-0">
+                <div
+                    class="group flex flex-col gap-6 rounded-xl border border-gray-200 dark:border-border-dark bg-white dark:bg-surface-dark p-8 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+                    <div
+                        class="size-14 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-background-dark transition-colors duration-300 text-primary">
+                        <span class="material-symbols-outlined text-[32px]">balance</span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h2 class="text-xl font-bold leading-tight decoration-auto text-[#111714] dark:text-white">Sell
+                            Gold</h2>
+                        <p class="text-slate-500 dark:text-text-secondary text-sm font-normal leading-relaxed">
+                            Sell your gold at current market rates with 100% transparency. We ensure you get the best
+                            value instantly.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="group flex flex-col gap-6 rounded-xl border border-gray-200 dark:border-border-dark bg-white dark:bg-surface-dark p-8 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+                    <div
+                        class="size-14 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-background-dark transition-colors duration-300 text-primary">
+                        <span class="material-symbols-outlined text-[32px]">lock_open_right</span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h2 class="text-xl font-bold leading-tight text-[#111714] dark:text-white">Release Pledged Gold
+                        </h2>
+                        <p class="text-slate-500 dark:text-text-secondary text-sm font-normal leading-relaxed">
+                            We help you release pledged gold from banks and other institutions smoothly and efficiently.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="group flex flex-col gap-6 rounded-xl border border-gray-200 dark:border-border-dark bg-white dark:bg-surface-dark p-8 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+                    <div
+                        class="size-14 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-background-dark transition-colors duration-300 text-primary">
+                        <span class="material-symbols-outlined text-[32px]">currency_rupee</span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h2 class="text-xl font-bold leading-tight text-[#111714] dark:text-white">Instant Cash</h2>
+                        <p class="text-slate-500 dark:text-text-secondary text-sm font-normal leading-relaxed">
+                            Receive immediate cash or bank transfer upon approval. No waiting periods, just instant
+                            liquidity.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="group flex flex-col gap-6 rounded-xl border border-gray-200 dark:border-border-dark bg-white dark:bg-surface-dark p-8 hover:border-primary/50 dark:hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
+                    <div
+                        class="size-14 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-background-dark transition-colors duration-300 text-primary">
+                        <span class="material-symbols-outlined text-[32px]">support_agent</span>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <h2 class="text-xl font-bold leading-tight text-[#111714] dark:text-white">24/7 Availability
+                        </h2>
+                        <p class="text-slate-500 dark:text-text-secondary text-sm font-normal leading-relaxed">
+                            Our experts are available around the clock to assist you with inquiries, valuations, and
+                            support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="mt-20 w-full rounded-2xl overflow-hidden relative min-h-[400px] flex items-center justify-center bg-[#1c2620]">
+                <div class="absolute inset-0 bg-cover bg-center" data-alt="Close up of shiny gold bars stacked neatly"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAXImfb10ARnnSuaKipBooIpYs7hT4GOFBe33bCvTiszyxjooZFIukPiKG8d9pY03EWjn-cMCRP38dYzlhW7aNEd5V3O5egiuqERFkvIR3sImfnP7m3AMZsXCvMhYdF2mziJ3G2R0Pm9wdMJmMF56fOBAkjnbnm3G_uU1__aRI4AYJ3HQQiL5Pp3HgTMlFGYzAMsfD23T7Q563pdnz2luhobOiDayShF5TKTITjjLfJqVhsIUWLfT0i5_8oTwBRbi74acYukgkRIurE");'
+                    loading="lazy" decoding="async"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30"></div>
+                <div class="relative z-10 flex flex-col items-center text-center px-4 max-w-2xl gap-6">
+                    <span class="text-primary font-bold tracking-widest text-sm uppercase">Trust &amp; Excellence</span>
+                    <h2 class="text-white text-3xl md:text-4xl font-black leading-tight">
+                        Maximum Value for Your Precious Assets
+                    </h2>
+                    <p class="text-gray-200 text-base md:text-lg">
+                        We pride ourselves on offering the highest market rates for your gold with a process that is
+                        transparent and secure.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-[#080808] border-y border-white/5">
+        <div class="px-4 md:px-10 max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="flex-1">
+                    <div class="flex gap-1 text-gold mb-2">
+                        <span class="material-symbols-outlined fill-current">star</span>
+                        <span class="material-symbols-outlined fill-current">star</span>
+                        <span class="material-symbols-outlined fill-current">star</span>
+                        <span class="material-symbols-outlined fill-current">star</span>
+                        <span class="material-symbols-outlined fill-current">star</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-2">"The best place to sell gold!"</h3>
+                    <p class="text-gray-400 italic">"I visited RR Gold Finance to sell my old jewelry. The process was
+                        incredibly fast, and they offered me a rate higher than the market standard. Highly
+                        recommended!"</p>
+                    <p class="text-primary font-bold mt-4">- Rajesh Kumar, T kallupatti</p>
+                </div>
+                <div class="h-16 w-px bg-white/10 hidden md:block"></div>
+                <div class="flex-1 flex justify-around w-full">
+                    <div class="text-center">
+                        <h4 class="text-3xl md:text-4xl font-black text-white">50Cr+</h4>
+                        <p class="text-sm text-gray-400 mt-1 uppercase tracking-wide">Worth Gold Bought</p>
+                    </div>
+                    <div class="text-center">
+                        <h4 class="text-3xl md:text-4xl font-black text-white">100%</h4>
+                        <p class="text-sm text-gray-400 mt-1 uppercase tracking-wide">Customer Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-20 relative overflow-hidden" id="contact-cta">
+        <div class="absolute inset-0 bg-background-dark">
+            <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px]"></div>
+            <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gold/5 rounded-full blur-[100px]"></div>
+        </div>
+        <div class="relative z-10 px-4 md:px-10 max-w-4xl mx-auto text-center">
+            <h2 class="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">
+                Ready to sell your gold?
+            </h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Don't wait. Visit us today for a <span class="text-primary">free valuation</span> and instant quote. Our
+                experts are waiting to assist you.
+            </p>
+            <div
+                class="bg-surface-dark/50 backdrop-blur-md border border-white/10 rounded-3xl p-8 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8 max-w-3xl mx-auto shadow-2xl">
+                <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                    <span class="text-sm uppercase tracking-widest text-gray-400 mb-2">Call our Toll Free Number</span>
+                    <a class="text-3xl md:text-4xl font-bold text-white hover:text-primary transition-colors"
+                        href="tel:+918270057004">82700-57004</a>
+                    <div class="flex items-center gap-2 mt-2 text-sm text-green-400">
+                        <span class="relative flex h-2 w-2">
+                            <span
+                                class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                        </span>
+                        Available Now
+                    </div>
+                </div>
+                <div class="h-full w-px bg-white/10 hidden md:block"></div>
+                <div class="flex flex-col gap-3 w-full md:w-auto">
+                    <a href="tel:+918270057004"
+                        class="flex w-full md:w-auto items-center justify-center rounded-full h-12 px-8 bg-primary hover:bg-primary/90 text-background-dark text-base font-bold shadow-lg shadow-primary/20 transition-all hover:scale-105">
+                        <span class="material-symbols-outlined mr-2">phone_in_talk</span>
+                        Call Us Now
+                    </a>
+                    <button
+                        class="flex w-full md:w-auto items-center justify-center rounded-full h-12 px-8 bg-white text-background-dark text-base font-bold hover:bg-gray-100 transition-all">
+                        <span class="material-symbols-outlined mr-2">location_on</span>
+                        Locate Branch
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="flex flex-col items-center py-10 px-4 md:px-10 lg:px-40">
+        <div class="layout-content-container flex flex-col max-w-[1200px] w-full flex-1 gap-10">
+            <div class="flex flex-col gap-3 pb-4 border-b border-border-dark">
+                <h2 class="text-white text-4xl md:text-5xl font-black leading-tight tracking-[-0.033em]">Contact Us</h2>
+                <p class="text-text-secondary text-base md:text-lg font-normal leading-normal max-w-2xl">
+                    Reach out to RR Gold Finance for premium gold buying and financial advice. We are here to assist you
+                    with secure and trusted services.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-4">
+                <div class="lg:col-span-5 flex flex-col gap-8">
+                    <div>
+                        <h3
+                            class="text-white text-xl font-bold leading-tight tracking-[-0.015em] mb-6 flex items-center gap-2">
+                            <span class="material-symbols-outlined text-primary">apartment</span>
+                            Office Details
+                        </h3>
+                        <div class="rounded-xl bg-surface-dark p-6 border border-border-dark mb-6">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div
+                                    class="flex items-center justify-center w-10 h-10 rounded-full bg-[#1a1a1a] text-primary">
+                                    <span class="material-symbols-outlined text-xl">corporate_fare</span>
+                                </div>
+                                <h4 class="text-white text-lg font-bold">Head Office</h4>
+                            </div>
+                            <div class="flex flex-col gap-4 pl-2">
+                                <div class="flex gap-4 items-start">
+                                    <span
+                                        class="material-symbols-outlined text-text-secondary text-[20px] mt-0.5">location_on</span>
+                                    <div>
+                                        <p
+                                            class="text-text-secondary text-xs uppercase tracking-wider font-semibold mb-1">
+                                            Address</p>
+                                        <p class="text-white text-sm font-normal leading-normal">Balaji nagar,
+                                            Rajapalayam Main Road, T kallupatti,
+                                            Peraiyur(Tk), Madurai 625702, India
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="w-full h-px bg-border-dark"></div>
+                                <div class="flex gap-4 items-center">
+                                    <span class="material-symbols-outlined text-text-secondary text-[20px]">mail</span>
+                                    <div>
+                                        <p
+                                            class="text-text-secondary text-xs uppercase tracking-wider font-semibold mb-1">
+                                            Email</p>
+                                        <a href="mailto:rrgold5185@gmail.com"
+                                            class="text-white text-sm font-normal leading-normal hover:text-primary cursor-pointer transition-colors">rrgold5185@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="w-full h-px bg-border-dark"></div>
+                                <div class="flex gap-4 items-center">
+                                    <span class="material-symbols-outlined text-text-secondary text-[20px]">call</span>
+                                    <div>
+                                        <p
+                                            class="text-text-secondary text-xs uppercase tracking-wider font-semibold mb-1">
+                                            Phone</p>
+                                        <a href="tel:+918270057004"
+                                            class="text-white text-sm font-normal leading-normal hover:text-primary cursor-pointer transition-colors">+91
+                                            8270057004</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 rounded-xl overflow-hidden h-48 w-full relative border border-border-dark">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!4v1769519104322!6m8!1m7!1s5KdcD1WZoD9sSH_mg8dSDA!2m2!1d9.719325002866928!2d77.8490289203422!3f251.01642!4f0!5f0.7820865974627469"
+                                width="100%" height="100%"
+                                style="border:0; filter: grayscale(100%) invert(92%) contrast(83%);" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-7">
+                    <div
+                        class="bg-surface-dark border border-border-dark rounded-xl p-6 md:p-10 shadow-xl shadow-black/20">
+                        <h3 class="text-white text-2xl font-bold leading-tight tracking-[-0.015em] mb-2">Get in Touch
+                        </h3>
+                        <p class="text-text-secondary text-sm mb-8">Fill out the form below and our gold experts will
+                            get back to you shortly.</p>
+                        <form class="flex flex-col gap-6">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="flex flex-col gap-2">
+                                    <label class="text-white text-sm font-medium" for="name">Full Name</label>
+                                    <div class="relative">
+                                        <input
+                                            class="w-full bg-[#111714] text-white border border-border-dark rounded-xl px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-zinc-600 transition-all"
+                                            id="name" placeholder="John Doe" type="text" />
+                                        <span
+                                            class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-zinc-600 text-[20px]">person</span>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <label class="text-white text-sm font-medium" for="phone">Phone Number</label>
+                                    <div class="relative">
+                                        <input
+                                            class="w-full bg-[#111714] text-white border border-border-dark rounded-xl px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-zinc-600 transition-all"
+                                            id="phone" placeholder="+91 98765 00000" type="tel" />
+                                        <span
+                                            class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-zinc-600 text-[20px]">smartphone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-white text-sm font-medium" for="service">Service Type</label>
+                                <div class="relative">
+                                    <select
+                                        class="w-full bg-[#111714] text-white border border-border-dark rounded-xl px-4 py-3 appearance-none focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all cursor-pointer"
+                                        id="service">
+                                        <option disabled="" selected="" value="">Select a service</option>
+                                        <option value="gold-loan">Gold Loan</option>
+                                        <option value="sell-gold">Sell Gold for Cash</option>
+                                        <option value="investment">Gold Investment Plans</option>
+                                        <option value="support">Customer Support</option>
+                                        <option value="other">Other Inquiry</option>
+                                    </select>
+                                    <span
+                                        class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-zinc-600 pointer-events-none">expand_more</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-white text-sm font-medium" for="message">Message</label>
+                                <textarea
+                                    class="w-full bg-[#111714] text-white border border-border-dark rounded-xl px-4 py-3 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary placeholder-zinc-600 transition-all resize-none"
+                                    id="message" placeholder="How can we help you today?" rows="5"></textarea>
+                            </div>
+                            <div class="pt-2">
+                                <button
+                                    class="w-full md:w-auto bg-primary hover:bg-[#2bc466] text-[#111714] font-bold py-3.5 px-8 rounded-full transition-all transform active:scale-95 shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
+                                    type="submit">
+                                    <span>Send Inquiry</span>
+                                    <span class="material-symbols-outlined text-[20px]">send</span>
+                                </button>
+                                <p
+                                    class="text-text-secondary text-xs mt-4 text-center md:text-left flex items-center gap-1">
+                                    <span class="material-symbols-outlined text-[14px]">lock</span>
+                                    Your information is secure and encrypted.
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-[#080808] pt-16 pb-8 border-t border-white/10">
+        <div class="px-4 md:px-10 max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div
+                            class="size-6 rounded-full bg-gold-gradient flex items-center justify-center text-background-dark">
+                            <span class="material-symbols-outlined text-sm">diamond</span>
+                        </div>
+                        <h2 class="text-lg font-bold text-white">RR Gold Finance</h2>
+                    </div>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-6">
+                        India's most trusted name in gold buying. We ensure you get the true value of your gold with
+                        100% transparency.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="text-gray-400 hover:text-primary" href="#" aria-label="Social Media"><span
+                                class="material-symbols-outlined">social_leaderboard</span></a>
+                        <a class="text-gray-400 hover:text-primary" href="#" aria-label="YouTube"><span
+                                class="material-symbols-outlined">smart_display</span></a>
+                        <a class="text-gray-400 hover:text-primary" href="#" aria-label="Instagram"><span
+                                class="material-symbols-outlined">photo_camera</span></a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-6">Quick Links</h3>
+                    <ul class="flex flex-col gap-3 text-sm text-gray-400">
+                        <li><a class="hover:text-primary transition-colors" href="#home">Home</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#about">About Us</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#services">Services</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#offers">Gold Rates</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-6">Services</h3>
+                    <ul class="flex flex-col gap-3 text-sm text-gray-400">
+                        <li><a class="hover:text-primary transition-colors" href="#services">Sell Gold for Cash</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#services">Release Pledged Gold</a>
+                        </li>
+                        <li><a class="hover:text-primary transition-colors" href="#services">Gold Valuation</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#services">Buy Gold Coins</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold mb-6">Contact Us</h3>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-400">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-1">location_on</span>
+                            <span>Balaji nagar,
+                                Rajapalayam Main Road, T kallupatti,
+                                Peraiyur(Tk), Madurai 625702, India</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">call</span>
+                            <a href="tel:+918270057004" class="hover:text-primary transition-colors">+91 8270057004</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="material-symbols-outlined text-primary">mail</span>
+                            <a href="mailto:contact@rrgoldfinance.com"
+                                class="hover:text-primary transition-colors">rrgold5185@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-600 text-sm">© 2025 RR GOLD. All rights reserved.</p>
+                <div class="flex gap-6 text-sm text-gray-600">
+                    <a class="hover:text-gray-400" href="#">Privacy Policy</a>
+                    <a class="hover:text-gray-400" href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
